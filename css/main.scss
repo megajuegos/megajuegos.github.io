@@ -508,7 +508,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		display: inline-block;
 		position: relative;
 		float: right;
-		margin: 0 0 2em 2em;
+		margin: 0 0 1em 1em;
 		max-width: 96px;
 		top: 0.25em;
 		border: 2px solid #fff;
@@ -947,7 +947,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 			@include breakpoint(medium) {
 				@include padding(3em, 2em);
-				text-align: center;
+				text-align: left;
 
 				&:before {
 					left: 0;
