@@ -513,8 +513,6 @@ $baseurl: '{{ site.baseurl }}/images';
 		top: 0.25em;
 		border: 2px solid #fff;
 		border-radius: 50%;
-		-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-		filter: grayscale(100%);
 	}
 
 	.image {
