@@ -2,7 +2,7 @@
 #
 
 # Site settings
-title: ¿Qué es un Megajuego?
+title: Megajuegos
 description: |
   Un juego de tablero,  
   mezcla de Estrategia, Diplomacia y Negociación,  
@@ -18,7 +18,7 @@ social:
   #linkedin-square: https://linkedin.com/in/<username>
   facebook-official: https://facebook.com/megajuegosARG
   #google-plus-square: https://plus.google.com/u/0/+<username>
-  email: mailto:megajuegos@protocultura.net
+  email: contact.html
   #flickr:
   #instagram:
   #youtube-square:
