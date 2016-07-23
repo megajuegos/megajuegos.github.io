@@ -215,6 +215,28 @@ $baseurl: '{{ site.baseurl }}/images';
 		&.special {
 			text-align: center;
 		}
+
+		.attrib {
+			font-size: 8pt;
+			background-color: rgba(0,0,0,0.8);
+			color: #888;
+			bottom: 0;
+			margin: 0;
+			border: 0;
+			padding: 0.2em;
+			position: absolute;
+			line-height: initial;
+
+			&.derecha{
+				right: 0;
+			}
+
+			&.izquierda {
+				left: 0;
+			}
+		}
+
+
 	}
 
 	header {
