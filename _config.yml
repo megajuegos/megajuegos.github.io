@@ -7,7 +7,7 @@ description: |
   Un juego de tablero,  
   mezcla de Estrategia, Diplomacia y Negociación,  
   para 50 jugadores simultáneos.
-owner: Megajuegos Buenos Aires # or company name
+owner: Megajuegos Argentina # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: megajuegos@protocultura.net
 baseurl: "" # the subpath of your site, e.g. /blog
