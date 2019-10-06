@@ -19,6 +19,7 @@ layout: landing
 					<section id="one" class="wrapper style1 special">
 						<div class="inner">
 							<header class="major">
+								{% comment %}
 								<p>En este video pueden ver la perspectiva de un equipo jugando la edición británica
                                                                 de “Watch the Skies”, un megajuego que enfrenta a las potencias mundiales contra una
                                                                 misteriosa amenaza alienígena.</p>
@@ -26,6 +27,20 @@ layout: landing
 									<iframe src="https://player.vimeo.com/video/96203590?color=ff9933&portrait=0"
 										frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
 									</iframe>
+								</div>
+								{% endcomment %}
+								<div id="nanogallery2"
+									/* gallery settings */
+									data-nanogallery2 = '{
+									"thumbnailHeight":  150,
+									"thumbnailWidth":   150,
+									"itemsBaseURL":     "https://nanogallery2.nanostudio.org/samples/"
+									}' >
+
+									<!-- gallery content -->
+									<a href = "berlin1.jpg"   data-ngThumb = "berlin1_t.jpg" > Berlin 1 </a>
+									<a href = "berlin2.jpg"   data-ngThumb = "berlin2_t.jpg" > Berlin 2 </a>
+									<a href = "berlin3.jpg"   data-ngThumb = "berlin3_t.jpg" > Berlin 3 </a>
 								</div>
 							</header>
 						</div>
