@@ -7,8 +7,8 @@ layout: landing
 							<h2>¿Qué es un Megajuego?</h2>
 							<p>{{ site.description | markdownify }}</p>
 							<ul class="actions">
-								<li><a href="https://drive.google.com/file/d/0B3CzPTbMxkfoMUxpN0oxeHZSUGM/view?usp=sharing" class="button special">Leé el Manual</a></li>
-								<li><a href="https://www.eventbrite.com.ar/e/vigilen-los-cielos-40-tickets-61450763889" class="button special">Entradas!</a></li>
+								<li><a href="#one" class="button special">Enterate más</a></li>
+								<li><a href="#cta" class="button special">Inscribite</a></li>
 							</ul>
 						</div>
 						<a href="#one" class="more scrolly">Enterate más</a>
@@ -334,12 +334,31 @@ layout: landing
 						<div class="inner">
 							<header>
 								<h2>Inscripción</h2>
-								<p>Reservá tu lugar para jugar Vigilen los Cielos,
+								<p>Reservá tu lugar para jugar nuestro próximo megajuego online,
 								adquiriendo tu entrada acá:
 							</header>
 							<ul class="actions vertical">
-								<li><a href="https://www.eventbrite.com.ar/e/vigilen-los-cielos-40-tickets-61450763889" class="button fit special">Entradas!</a></li>
+								<li>
+<a href="https://www.eventbrite.com.ar/e/independencia-el-megajuego-10v-online-tickets-155220485651" class="button fit special" id="eventbrite-widget-modal-trigger-155220485651">Entradas!</a>
+
+<script src="https://www.eventbrite.com.ar/static/widgets/eb_widgets.js"></script>
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '155220485651',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-155220485651',
+        onOrderComplete: exampleCallback
+    });
+</script>
+								</li>
+							{% comment %}
 								<li><a href="https://drive.google.com/file/d/0B3CzPTbMxkfoMUxpN0oxeHZSUGM/view?usp=sharing" class="button fit special">Manual</a></li>
+							{% endcomment %}
 								<li><a href="contact.html" class="button fit special">Consultas</a></li>
 							</ul>
 						</div>
