@@ -333,11 +333,11 @@ layout: landing
 						<div class="inner">
 							<header>
 								<h2>Inscripción</h2>
-								<p>{{ currentgame.descripcion }}:
+								<p>{{ site.currentgame.descripcion }}:
 							</header>
 							<ul class="actions vertical">
 								<li>
-									<a nohref="{{ currentgame.eventbrite-fullurl }}" class="button fit special" id="eventbrite-widget-modal-trigger-{{ currentgame.eventbrite-id }}">Entradas!</a>
+									<a nohref="{{ site.currentgame.eventbrite-fullurl }}" class="button fit special" id="eventbrite-widget-modal-trigger-{{ site.currentgame.eventbrite-id }}">Entradas!</a>
 
 <script src="https://www.eventbrite.com.ar/static/widgets/eb_widgets.js"></script>
 <script type="text/javascript">
@@ -347,14 +347,14 @@ layout: landing
 
     window.EBWidgets.createWidget({
         widgetType: 'checkout',
-        eventId: '{{ currentgame.eventbrite-id }}',
+        eventId: '{{ site.currentgame.eventbrite-id }}',
         modal: true,
-        modalTriggerElementId: 'eventbrite-widget-modal-trigger-{{ currentgame.eventbrite-id }}',
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-{{ site.currentgame.eventbrite-id }}',
         onOrderComplete: exampleCallback
     });
 </script>
 								</li>
-								<li><a href="{{ currentgame.manual-url }}" class="button fit special">Manual</a></li>
+								<li><a href="{{ site.currentgame.manual-url }}" class="button fit special">Manual</a></li>
 								<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe5oe0Mq9vfZJVksNFqIZdDj7fBVPp98x80NF6I1kplxBd9gw/viewform" class="button fit special">Consultas</a></li>
 							</ul>
 						</div>
