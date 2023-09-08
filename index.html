@@ -333,11 +333,11 @@ layout: landing
 						<div class="inner">
 							<header>
 								<h2>Inscripción</h2>
-								<p>Reservá tu lugar para jugar "Entente: Un vals Político", nuestro Megajuego ambientado en los años previos a la Primera Guerra Mundial y diseñado por Peter Nixon y Minnesota Megagames, de forma presencial el 23 de Julio de 2023:
+								<p>{{ currentgame.descripcion }}:
 							</header>
 							<ul class="actions vertical">
 								<li>
-<a nohref="https://www.eventbrite.com.ar/e/entente-un-vals-politico-10-tickets-679769708497" class="button fit special" id="eventbrite-widget-modal-trigger-679769708497">Entradas!</a>
+									<a nohref="{{ currentgame.eventbrite-fullurl }}" class="button fit special" id="eventbrite-widget-modal-trigger-{{ currentgame.eventbrite-id }}">Entradas!</a>
 
 <script src="https://www.eventbrite.com.ar/static/widgets/eb_widgets.js"></script>
 <script type="text/javascript">
@@ -347,19 +347,14 @@ layout: landing
 
     window.EBWidgets.createWidget({
         widgetType: 'checkout',
-        eventId: '679769708497',
+        eventId: '{{ currentgame.eventbrite-id }}',
         modal: true,
-        modalTriggerElementId: 'eventbrite-widget-modal-trigger-679769708497',
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-{{ currentgame.eventbrite-id }}',
         onOrderComplete: exampleCallback
     });
 </script>
 								</li>
-							{% comment %}
-								<li><a href="https://drive.google.com/file/d/0B3CzPTbMxkfoMUxpN0oxeHZSUGM/view?usp=sharing" class="button fit special" hint="vlc">Manual</a></li>
-								<li><a href="https://drive.google.com/file/d/1LYYVhVae_TIMchBFrm12HwQlVfTB_qLu/view?usp=sharing" class="button fit special" hint="indep">Manual</a></li>
-								<li><a href="https://drive.google.com/file/d/1MasgvZ_BWzfP0bkXVepd8i1jyn_zcOkB/view" class="button fit special" hint="com">Manual</a></li>
-							{% endcomment %}
-								<li><a href="https://docs.google.com/document/d/1XQeDuZw0EhqntVZuiczoKZny8yPvJiK2VMhECs37mqg/edit?usp=sharing" class="button fit special" hint="entente">Manual</a></li>
+								<li><a href="{{ currentgame.manual-url }}" class="button fit special">Manual</a></li>
 								<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe5oe0Mq9vfZJVksNFqIZdDj7fBVPp98x80NF6I1kplxBd9gw/viewform" class="button fit special">Consultas</a></li>
 							</ul>
 						</div>
