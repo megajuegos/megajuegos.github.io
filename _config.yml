@@ -14,12 +14,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.megajuegos.com.ar" # the base hostname & protocol for your site
 
 currentgame:
-  eventbrite-fullurl: https://www.eventbrite.com.ar/e/vigilen-los-cielos-60-tickets-713385393917
-  eventbrite-id: 713385393917
+  eventbrite-fullurl: https://www.eventbrite.com.ar/e/plata-y-barro-la-mezcla-que-somos-online-tickets-1681473345039
+  eventbrite-id: 1681473345039
 
 # --- VLC
-  descripcion: Reservá tu lugar para jugar "Vigilen los Cielos", nuestra localización del famoso Megajuego de terror global y encuentros cercanos, creado por Jim Wallman. Se realizará en forma presencial en la Ciudad de Buenos Aires, el 1ro de Octubre de 2023
-  manual-url: manuales/VLC-Manual-Humanos-v5.3.pdf
+# descripcion: Reservá tu lugar para jugar "Vigilen los Cielos", nuestra localización del famoso Megajuego de terror global y encuentros cercanos, creado por Jim Wallman. Se realizará en forma presencial en la Ciudad de Buenos Aires, el 1ro de Octubre de 2023
+# manual-url: manuales/VLC-Manual-Humanos-v5.3.pdf
 
 # --- independencia
 # descripcion: Reservá tu lugar para jugar online Independencia 1.0v el 26 de Junio de 2021, adquiriendo tu entrada acá
@@ -32,6 +32,10 @@ currentgame:
 # --- conquistar o morir
 # descripcion: Reservá tu lugar para jugar "Conquistar o Morir", nuestro nuevo Megajuego inspirado en los libros de Game of Thrones, de forma presencial el 13 de Noviembre de 2022
 # manual-url: https://drive.google.com/file/d/1MasgvZ_BWzfP0bkXVepd8i1jyn_zcOkB/view
+
+# --- Plata y Barro
+descripcion: Reservá tu lugar para jugar "Plata y barro, la mezcla que somos", nuestro nuevo Megajuego ambientado en la primera década del siglo XIX en las Provincias del Río de la Plata. ¡40 jugadores simultáneos!
+manual-url: https://drive.google.com/file/d/1JjYvE_i3RgtMpxdkvTowWOrkrFjjsXBT/view
 
 social:
   twitter: https://twitter.com/megajuegosARG
