@@ -1,3 +1,23 @@
+# Megajuegos Argentina
+
+## Para actualizar un evento:
+
+- Hay que modificar 1 solo archivo _config.yml:
+  - Copia la direccion del evento en eventbrite y por separado el ID del evento (los 
+ultimos 12/13 numeros de la url)
+  - busca las lineas:
+
+	currentgame:
+  	  eventbrite-fullurl: <aca_pega_la_url>
+      eventbrite-id: <aca_pega_el_eventid>
+
+  - Si el megajuego ya esta listado debajo de esas lineas y el evento es de ese 
+    megajuego, descomenta las lineas descripcion y manual-url.
+	Si el megajuego no esta listado, creale un bloque como los demas, respetando
+	el identado (ojo con github para android y la version web porque no te dice
+	en que columna estas.
+  - Avisale a alecu para que apruebe los cambios.
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 A Jekyll port of the Spectral theme by HTML5 UP.
 Find the original non-jekyll theme at: http://html5up.net/
