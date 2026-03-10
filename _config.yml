@@ -14,8 +14,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.megajuegos.com.ar" # the base hostname & protocol for your site
 
 currentgame:
-  eventbrite-fullurl: https://www.eventbrite.com.ar/e/plata-y-barro-la-mezcla-que-somos-online-tickets-1681473345039
-  eventbrite-id: 1681473345039
+  eventbrite-fullurl: https://www.eventbrite.com.ar/e/juegos-de-negociacion-tickets-1983921422380
+  eventbrite-id: 1983921422380
 
 # --- VLC
 # descripcion: Reservá tu lugar para jugar "Vigilen los Cielos", nuestra localización del famoso Megajuego de terror global y encuentros cercanos, creado por Jim Wallman. Se realizará en forma presencial en la Ciudad de Buenos Aires, el 1ro de Octubre de 2023
@@ -34,8 +34,13 @@ currentgame:
 # manual-url: https://drive.google.com/file/d/1MasgvZ_BWzfP0bkXVepd8i1jyn_zcOkB/view
 
 # --- Plata y Barro
-  descripcion: Reservá tu lugar para jugar "Plata y barro, la mezcla que somos", nuestro nuevo Megajuego ambientado en la primera década del siglo XIX en las Provincias del Río de la Plata. ¡40 jugadores simultáneos!
-  manual-url: https://drive.google.com/file/d/1JjYvE_i3RgtMpxdkvTowWOrkrFjjsXBT/view
+# descripcion: Reservá tu lugar para jugar "Plata y barro, la mezcla que somos", nuestro nuevo Megajuego ambientado en la primera década del siglo XIX en las Provincias del Río de la Plata. ¡40 jugadores simultáneos!
+# manual-url: https://drive.google.com/file/d/1JjYvE_i3RgtMpxdkvTowWOrkrFjjsXBT/view
+
+# --- GOM Marzo
+  descripcion: Reservá tu lugar para jugar "El Plan y El Asalto", en una jornada que no es solo un juego, es un desafío de liderazgo y comunicación donde el voto no existe: el consenso es la única salida. Tu entrada es solidaria: Recordá que para ingresar solicitamos también la donación de un alimento no perecedero que será gestionado por La Orden del Ñoqui a beneficio del Hogar Bernardino Rivadavia.
+# manual-url: https://drive.google.com/file/d/1JjYvE_i3RgtMpxdkvTowWOrkrFjjsXBT/view
+
 
 social:
   twitter: https://twitter.com/megajuegosARG
