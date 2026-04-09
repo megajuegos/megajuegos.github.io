@@ -14,8 +14,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.megajuegos.com.ar" # the base hostname & protocol for your site
 
 currentgame:
-  eventbrite-fullurl: https://www.eventbrite.com.ar/e/juegos-de-negociacion-tickets-1983921422380
-  eventbrite-id: 1983921422380
+  eventbrite-fullurl: https://www.eventbrite.com.ar/e/dios-emperador-tickets-1986500091248
+  eventbrite-id: 1986500091248
 
 # --- VLC
 # descripcion: Reservá tu lugar para jugar "Vigilen los Cielos", nuestra localización del famoso Megajuego de terror global y encuentros cercanos, creado por Jim Wallman. Se realizará en forma presencial en la Ciudad de Buenos Aires, el 1ro de Octubre de 2023
@@ -38,8 +38,12 @@ currentgame:
 # manual-url: https://drive.google.com/file/d/1JjYvE_i3RgtMpxdkvTowWOrkrFjjsXBT/view
 
 # --- GOM Marzo
-  descripcion: Reservá tu lugar para jugar "El Plan y El Asalto", un desafío de liderazgo y comunicación donde el voto no existe, el consenso es la única salida. Tu entrada es solidaria, recordá traer un alimento no perecedero para el Hogar Bernardino Rivadavia.
+#  descripcion: Reservá tu lugar para jugar "El Plan y El Asalto", un desafío de liderazgo y comunicación donde el voto no existe, el consenso es la única salida. Tu entrada es solidaria, recordá traer un alimento no perecedero para el Hogar Bernardino Rivadavia.
 # manual-url: https://drive.google.com/file/d/1JjYvE_i3RgtMpxdkvTowWOrkrFjjsXBT/view
+
+# --- Dios Emperador Mayo
+ descripcion: Reservá tu lugar para jugar "Dios Emperador", un sangriento Megajuego de fantasía sobre Poder, Mentiras y Magnicidio.. Tu entrada es solidaria, recordá traer un alimento no perecedero para el Hogar Bernardino Rivadavia.
+ manual-url: https://drive.google.com/file/d/1L0IAaBhx21_WtoalXhWMqjJycJFfmiyj/view
 
 
 social:
