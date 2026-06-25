@@ -1,4 +1,5 @@
 ---
+kind: home_spotlight
 order: 4
 image: "images/album/26 indep.jpg"
 attribution: "Independencia"

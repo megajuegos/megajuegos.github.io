@@ -12,6 +12,8 @@ first_published: 2016 # if migrating another site, the year of your first publis
 email: megajuegos@protocultura.net
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.megajuegos.com.ar" # the base hostname & protocol for your site
+exclude:
+  - CONTENT.md
 
 currentgame:
   eventbrite-fullurl: https://www.eventbrite.com.ar/e/dios-emperador-tickets-1986500091248
@@ -92,16 +94,7 @@ social:
 markdown: kramdown
 #sass:
 #  style: compressed
-collections_dir: _contenido
 
 collections:
-  home_panels:
-    output: false
-  home_galleries:
-    output: false
-  home_spotlights:
-    output: false
-  team_sections:
-    output: false
-  team_members:
+  contenido:
     output: false

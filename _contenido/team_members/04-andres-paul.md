@@ -1,4 +1,5 @@
 ---
+kind: team_member
 order: 4
 section: "control"
 name: "Andrés Paul"

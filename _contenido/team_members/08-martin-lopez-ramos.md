@@ -1,4 +1,5 @@
 ---
+kind: team_member
 order: 3
 section: "colaboradores-habituales"
 name: "Martín Lopez Ramos"

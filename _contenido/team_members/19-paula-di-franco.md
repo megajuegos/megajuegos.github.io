@@ -1,4 +1,5 @@
 ---
+kind: team_member
 order: 8
 section: "mas-colaboradores"
 name: "Paula Di Franco"

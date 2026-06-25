@@ -1,4 +1,5 @@
 ---
+kind: home_panel
 panel_key: cta
 title: "Inscripción"
 primary_button_label: "Entradas!"

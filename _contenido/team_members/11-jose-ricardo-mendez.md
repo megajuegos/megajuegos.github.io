@@ -1,4 +1,5 @@
 ---
+kind: team_member
 order: 6
 section: "colaboradores-habituales"
 name: "José Ricardo Méndez"

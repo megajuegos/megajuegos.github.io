@@ -1,4 +1,5 @@
 ---
+kind: team_member
 order: 7
 section: "mas-colaboradores"
 name: "Jonathan Preiser"

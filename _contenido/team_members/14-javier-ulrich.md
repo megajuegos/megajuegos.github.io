@@ -1,4 +1,5 @@
 ---
+kind: team_member
 order: 3
 section: "mas-colaboradores"
 name: "Javier Ulrich"

@@ -2,6 +2,7 @@
 
 La home ahora separa contenido de presentacion:
 
+- `_contenido/`: coleccion unica de Jekyll para todo el contenido editable.
 - `_contenido/home_panels/`: banner principal y bloque de inscripcion.
 - `_contenido/home_galleries/`: galerias de fotos y sus listas de imagenes.
 - `_contenido/home_spotlights/`: bloques destacados con imagen lateral y texto en Markdown.

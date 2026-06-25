@@ -1,4 +1,5 @@
 ---
+kind: team_member
 order: 1
 section: "control"
 name: "Yaguareté"

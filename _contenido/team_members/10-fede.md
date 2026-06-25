@@ -1,4 +1,5 @@
 ---
+kind: team_member
 order: 5
 section: "colaboradores-habituales"
 name: "Fede"

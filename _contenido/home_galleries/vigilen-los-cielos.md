@@ -1,4 +1,5 @@
 ---
+kind: home_gallery
 order: 1
 title: "Vigilen los Cielos"
 gallery_id: "vlc"

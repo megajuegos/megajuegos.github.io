@@ -1,4 +1,5 @@
 ---
+kind: home_panel
 panel_key: banner
 title: "¿Qué es un Megajuego?"
 primary_button_label: "Contactános"

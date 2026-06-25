@@ -1,4 +1,5 @@
 ---
+kind: home_gallery
 order: 2
 title: "Independencia"
 gallery_id: "indep"

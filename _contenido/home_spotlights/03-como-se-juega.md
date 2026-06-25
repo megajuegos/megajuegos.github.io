@@ -1,4 +1,5 @@
 ---
+kind: home_spotlight
 order: 3
 image: "images/album/04 vlc.jpg"
 attribution: "Vigilen los Cielos"

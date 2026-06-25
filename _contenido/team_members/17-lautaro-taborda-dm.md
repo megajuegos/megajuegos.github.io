@@ -1,4 +1,5 @@
 ---
+kind: team_member
 order: 6
 section: "mas-colaboradores"
 name: "Lautaro Taborda DM"

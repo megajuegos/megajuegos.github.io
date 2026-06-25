@@ -1,4 +1,5 @@
 ---
+kind: team_member
 order: 5
 section: "control"
 name: "Alejandro J. Cura"

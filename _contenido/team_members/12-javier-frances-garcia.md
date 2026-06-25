@@ -1,4 +1,5 @@
 ---
+kind: team_member
 order: 1
 section: "mas-colaboradores"
 name: "Javier “Francés” García"

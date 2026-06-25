@@ -1,4 +1,5 @@
 ---
+kind: team_member
 order: 2
 section: "control"
 name: "Nicolás Binkis"

@@ -1,4 +1,5 @@
 ---
+kind: team_member
 order: 1
 section: "colaboradores-habituales"
 name: "Juan Manuel Prat"

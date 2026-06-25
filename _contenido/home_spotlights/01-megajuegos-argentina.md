@@ -1,4 +1,5 @@
 ---
+kind: home_spotlight
 order: 1
 heading: "Megajuegos Argentina"
 image: "images/album/14 vlc.jpg"
