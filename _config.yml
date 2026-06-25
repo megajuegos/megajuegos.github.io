@@ -92,3 +92,15 @@ social:
 markdown: kramdown
 #sass:
 #  style: compressed
+
+collections:
+  home_panels:
+    output: false
+  home_galleries:
+    output: false
+  home_spotlights:
+    output: false
+  team_sections:
+    output: false
+  team_members:
+    output: false

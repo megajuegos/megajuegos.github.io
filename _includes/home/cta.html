@@ -1,0 +1,28 @@
+<section id="cta" class="wrapper style4">
+  <div class="inner">
+    <header>
+      <h2>{{ include.panel.title }}</h2>
+      {{ include.panel.content | markdownify }}
+    </header>
+    <ul class="actions vertical">
+      <li>
+        <a nohref="{{ include.panel.eventbrite_fullurl }}" class="button fit special" id="eventbrite-widget-modal-trigger-{{ include.panel.eventbrite_id }}">{{ include.panel.primary_button_label }}</a>
+        <script src="https://www.eventbrite.com.ar/static/widgets/eb_widgets.js"></script>
+        <script type="text/javascript">
+          var exampleCallback = function() {
+            console.log('Order complete!');
+          };
+
+          window.EBWidgets.createWidget({
+            widgetType: 'checkout',
+            eventId: '{{ include.panel.eventbrite_id }}',
+            modal: true,
+            modalTriggerElementId: 'eventbrite-widget-modal-trigger-{{ include.panel.eventbrite_id }}',
+            onOrderComplete: exampleCallback
+          });
+        </script>
+      </li>
+      <li><a href="{{ include.panel.manual_url }}" class="button fit special">{{ include.panel.manual_button_label }}</a></li>
+    </ul>
+  </div>
+</section>
