@@ -2,6 +2,7 @@
 kind: team_section
 order: 1
 title: "El equipo de Control"
+style: "style1"
 members:
   - name: "Yaguareté"
     image: "images/equipo/yaguarete.jpg"

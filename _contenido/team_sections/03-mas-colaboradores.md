@@ -2,6 +2,7 @@
 kind: team_section
 order: 3
 title: "Más colaboradores!"
+style: "style3"
 members:
   - name: "Javier “Francés” García"
     image: "images/equipo/frances.jpg"
@@ -43,4 +44,40 @@ members:
     image_alt: "paula"
     bio: |
       paula da clases de Prácticas del Lenguaje y es una loca de la ESI. Se especializa en perseguir jugadores de rol para sacarles fotos.
+---
+*** Add File: /Users/alecu/Documents/Codex/2026-06-25-quiero-que-clones-esto-https-github/repo/_contenido/team_sections/04-grupo-demo-style4.md
+---
+kind: team_section
+order: 4
+title: "Grupo Demo Style 4"
+style: "style4"
+members:
+  - name: "Integrante Demo A"
+    image: "images/equipo/yaguarete.jpg"
+    image_alt: "demo-a"
+    bio: |
+      Este es contenido de prueba para visualizar cómo se ve `style4` aplicado a una sección del equipo.
+  - name: "Integrante Demo B"
+    image: "images/equipo/manuq.jpg"
+    image_alt: "demo-b"
+    bio: |
+      Podés usar este bloque para decidir si este estilo sirve para una sección real o si conviene reservarlo para otro uso.
+---
+*** Add File: /Users/alecu/Documents/Codex/2026-06-25-quiero-que-clones-esto-https-github/repo/_contenido/team_sections/05-grupo-demo-style5.md
+---
+kind: team_section
+order: 5
+title: "Grupo Demo Style 5"
+style: "style5"
+members:
+  - name: "Integrante Demo C"
+    image: "images/equipo/tincho.jpg"
+    image_alt: "demo-c"
+    bio: |
+      Este bloque está para comparar `style5` con el resto de las variantes de wrapper disponibles en el tema.
+  - name: "Integrante Demo D"
+    image: "images/equipo/paula.jpg"
+    image_alt: "demo-d"
+    bio: |
+      Cuando elijas los estilos definitivos, estos grupos de prueba se pueden borrar sin afectar la estructura del contenido.
 ---

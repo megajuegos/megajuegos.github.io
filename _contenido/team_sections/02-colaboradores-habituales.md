@@ -2,6 +2,7 @@
 kind: team_section
 order: 2
 title: "Colaboradores Habituales"
+style: "style2"
 members:
   - name: "Juan Manuel Prat"
     image: "images/equipo/kilowoo.jpg"

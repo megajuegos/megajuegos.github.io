@@ -1,6 +1,6 @@
 {% assign sorted_sections = include.sections | sort: "order" %}
 {% for section in sorted_sections %}
-  <section id="three" class="wrapper style3 special">
+  <section id="three" class="wrapper {{ section.style | default: 'style3' }} special">
     <div class="inner">
       <header class="major">
         <h2>{{ section.title }}</h2>
