@@ -1,0 +1,12 @@
+<section id="banner">
+  <div class="inner">
+    <h2>{{ include.panel.title }}</h2>
+    {{ include.panel.content | markdownify }}
+    <ul class="actions">
+      <li><a href="{{ include.panel.primary_button_url }}" class="button special scrolly">{{ include.panel.primary_button_label }}</a></li>
+      <li><a href="{{ include.panel.secondary_button_url }}" class="button special scrolly">{{ include.panel.secondary_button_label }}</a></li>
+    </ul>
+  </div>
+  <a href="#one" class="more scrolly">{{ include.panel.more_label }}</a>
+  <span class="attrib {{ include.panel.attribution_side }}">{{ include.panel.attribution }}</span>
+</section>

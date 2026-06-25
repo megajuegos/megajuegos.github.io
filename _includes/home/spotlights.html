@@ -1,0 +1,17 @@
+<section id="two" class="wrapper alt style2">
+  {% assign sorted_spotlights = include.spotlights | sort: "order" %}
+  {% for spotlight in sorted_spotlights %}
+    <section class="spotlight">
+      <div class="image">
+        <img src="{{ spotlight.image }}" alt="{{ spotlight.image_alt | default: spotlight.title | default: spotlight.attribution }}" />
+        <span class="attrib {{ spotlight.attribution_side }}">{{ spotlight.attribution }}</span>
+      </div>
+      <div class="content">
+        {% if spotlight.heading %}
+          <h2>{{ spotlight.heading }}</h2>
+        {% endif %}
+        {{ spotlight.content | markdownify }}
+      </div>
+    </section>
+  {% endfor %}
+</section>

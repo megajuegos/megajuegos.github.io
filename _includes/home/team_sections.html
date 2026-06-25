@@ -1,0 +1,20 @@
+{% assign sorted_sections = include.sections | sort: "order" %}
+{% for section in sorted_sections %}
+  <section id="three" class="wrapper style3 special">
+    <div class="inner">
+      <header class="major">
+        <h2>{{ section.title }}</h2>
+      </header>
+      <ul class="features">
+        {% assign section_members = include.members | where: "section", section.section_key | sort: "order" %}
+        {% for member in section_members %}
+          <li>
+            <img class="headshot" src="{{ member.image }}" alt="{{ member.image_alt | default: member.name }}" />
+            <h3>{{ member.name }}</h3>
+            {{ member.content | markdownify }}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+{% endfor %}
