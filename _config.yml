@@ -92,6 +92,7 @@ social:
 markdown: kramdown
 #sass:
 #  style: compressed
+collections_dir: _contenido
 
 collections:
   home_panels:
