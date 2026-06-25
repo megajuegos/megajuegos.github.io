@@ -7,8 +7,8 @@
         <span class="attrib {{ spotlight.attribution_side }}">{{ spotlight.attribution }}</span>
       </div>
       <div class="content">
-        {% if spotlight.title %}
-          <h2>{{ spotlight.title }}</h2>
+        {% if spotlight.heading %}
+          <h2>{{ spotlight.heading }}</h2>
         {% endif %}
         {{ spotlight.content | markdownify }}
       </div>

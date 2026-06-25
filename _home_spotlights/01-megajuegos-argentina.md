@@ -1,6 +1,6 @@
 ---
 order: 1
-title: "Megajuegos Argentina"
+heading: "Megajuegos Argentina"
 image: "images/album/14 vlc.jpg"
 attribution: "Vigilen los Cielos"
 attribution_side: "izquierda"
