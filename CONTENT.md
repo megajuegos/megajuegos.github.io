@@ -6,8 +6,7 @@ La home ahora separa contenido de presentacion:
 - `_contenido/home_panels/`: banner principal y bloque de inscripcion.
 - `_contenido/home_galleries/`: galerias de fotos y sus listas de imagenes.
 - `_contenido/home_spotlights/`: bloques destacados con imagen lateral y texto en Markdown.
-- `_contenido/team_sections/`: titulos y orden de las secciones del equipo.
-- `_contenido/team_members/`: una persona por archivo, con bio en Markdown y metadatos en front matter.
+- `_contenido/team_sections/`: una seccion por archivo, con sus integrantes en el array `members`.
 - `_includes/home/`: templates Liquid/HTML que renderizan cada bloque.
 
 Reglas practicas:

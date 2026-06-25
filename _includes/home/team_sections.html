@@ -6,12 +6,11 @@
         <h2>{{ section.title }}</h2>
       </header>
       <ul class="features">
-        {% assign section_members = include.members | where: "section", section.section_key | sort: "order" %}
-        {% for member in section_members %}
+        {% for member in section.members %}
           <li>
             <img class="headshot" src="{{ member.image }}" alt="{{ member.image_alt | default: member.name }}" />
             <h3>{{ member.name }}</h3>
-            {{ member.content | markdownify }}
+            {{ member.bio | markdownify }}
           </li>
         {% endfor %}
       </ul>
