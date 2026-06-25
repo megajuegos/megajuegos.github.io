@@ -1,0 +1,17 @@
+---
+layout: default
+title: Equipo
+subtitle: Conocé al equipo de control y a quienes colaboran habitualmente en los megajuegos.
+---
+{% assign content_docs = site.contenido %}
+{% assign team_sections = content_docs | where: "kind", "team_section" %}
+{% assign team_members = content_docs | where: "kind", "team_member" %}
+
+<article id="main">
+  <header>
+    <h2>{{ page.title }}</h2>
+    <p>{{ page.subtitle }}</p>
+  </header>
+
+  {% include home/team_sections.html sections=team_sections members=team_members %}
+</article>

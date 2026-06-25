@@ -5,13 +5,10 @@ layout: landing
 {% assign panels = content_docs | where: "kind", "home_panel" %}
 {% assign galleries = content_docs | where: "kind", "home_gallery" %}
 {% assign spotlights = content_docs | where: "kind", "home_spotlight" %}
-{% assign team_sections = content_docs | where: "kind", "team_section" %}
-{% assign team_members = content_docs | where: "kind", "team_member" %}
 {% assign banner = panels | where: "panel_key", "banner" | first %}
 {% assign cta = panels | where: "panel_key", "cta" | first %}
 
 {% include home/banner.html panel=banner %}
 {% include home/gallery_section.html galleries=galleries %}
 {% include home/spotlights.html spotlights=spotlights %}
-{% include home/team_sections.html sections=team_sections members=team_members %}
 {% include home/cta.html panel=cta %}
